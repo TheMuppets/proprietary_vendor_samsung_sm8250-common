@@ -1,8 +1,0 @@
-service vendor.secure_element_hal_service-gto /vendor/bin/hw/android.hardware.secure_element@1.0-service-gto
-    class hal
-    disabled
-    user system
-    group system
-    
-on property:ro.boot.hardware.sku=s3fwrn5
-    start vendor.secure_element_hal_service-gto
