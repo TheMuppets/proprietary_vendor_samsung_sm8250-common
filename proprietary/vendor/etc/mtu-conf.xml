@@ -60,6 +60,43 @@ mtuTableEntry attributes:
 <!-- DT Greece -->
     <mtuTableEntry numeric="20201" mtu="1280" rat="4"/>
 
+<!-- DT Germany -->
+    <mtuTableEntry numeric="26201" mtu="1340" profile="2"/>
+    <mtuTableEntry numeric="26201" mtu="1280" rat="4"/>
+    <mtuTableEntry numeric="26206" mtu="1280" rat="4"/>
+
+<!-- DT Austria -->
+    <mtuTableEntry numeric="23203" mtu="1280" rat="4"/>
+    <mtuTableEntry numeric="23207" mtu="1280" rat="4"/>
+
+<!-- DT Czech -->
+    <mtuTableEntry numeric="23001" mtu="1280" rat="4"/>
+
+<!-- DT Romania -->
+    <mtuTableEntry numeric="22603" mtu="1280" rat="4"/>
+    <mtuTableEntry numeric="22606" mtu="1280" rat="4"/>
+
+<!-- DT Poland -->
+    <mtuTableEntry numeric="26002" mtu="1280" rat="4"/>
+
+<!-- DT Hungary -->
+    <mtuTableEntry numeric="21630" mtu="1280" rat="4"/>
+
+<!-- DT Macedonia -->
+    <mtuTableEntry numeric="29401" mtu="1280" rat="4"/>
+
+<!-- DT Netherlands -->
+    <mtuTableEntry numeric="20416" mtu="1280" rat="4"/>
+
+<!-- DT Slovakia -->
+    <mtuTableEntry numeric="23102" mtu="1280" rat="4"/>
+
+<!-- DT Croatia -->
+    <mtuTableEntry numeric="21901" mtu="1280" rat="4"/>
+
+<!-- DT Montenegro -->
+    <mtuTableEntry numeric="29702" mtu="1280" rat="4"/>
+
 <!-- Vodafone Greece -->
     <mtuTableEntry numeric="20205" mtu="1390" rat="4"/>
 
@@ -101,10 +138,10 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="20820" mtu="1354" profile="2"/>
     <mtuTableEntry numeric="20820" mtu="1354" rat="4"/>
 
-<!-- Movistar (Telephonica Spain) -->
-    <mtuTableEntry numeric="21407" mtu="1440" profile="2"/>
+<!-- Movistar (Telefonica ES) -->
+    <mtuTableEntry numeric="21405" mtu="1280" profile="2"/>
+    <mtuTableEntry numeric="21407" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="21407" mtu="1440" profile="14"/>
-    <mtuTableEntry numeric="21407" mtu="1280" rat="4"/>
 
 <!-- Elisa Estonia -->
     <mtuTableEntry numeric="24802" mtu="1280" profile="2"/>
@@ -121,6 +158,8 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="22201" mtu="1350"/>
     <mtuTableEntry numeric="22299" mtu="1440"/>
     <mtuTableEntry numeric="22210" mtu="1350"/>
+    <mtuTableEntry numeric="22288" mtu="1280" profile="2"/>
+    <mtuTableEntry numeric="22299" mtu="1280" profile="2"/>
 
 <!-- RDS Romania -->
     <mtuTableEntry numeric="22605" mtu="1354" rat="4"/>
@@ -132,10 +171,6 @@ mtuTableEntry attributes:
 
 <!-- Salt -->
     <mtuTableEntry numeric="22803" mtu="1280" profile="2"/>
-
-<!-- T-Mobile A -->
-    <mtuTableEntry numeric="23203" mtu="1280" rat="4"/>
-    <mtuTableEntry numeric="23207" mtu="1280" rat="4"/>
 
 <!-- Hutchison -->
     <mtuTableEntry numeric="23205" mtu="1280" rat="4"/>
@@ -150,9 +185,8 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="23415" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="23415" mtu="1280" rat="4"/>    
 
-<!-- H3G(UK) 23420, 3IE(Ireland) (Default : 1440) -->
+<!-- H3G(UK) 23420 (Default : 1440) -->
     <mtuTableEntry numeric="23420" mtu="1440"/>
-    <mtuTableEntry numeric="27205" mtu="1440"/>
 
 <!-- 3UK -->
     <mtuTableEntry numeric="23420" mtu="1280" rat="4"/>
@@ -201,6 +235,15 @@ mtuTableEntry attributes:
 <!--  Lithuania Omnitel -->
     <mtuTableEntry numeric="24601" mtu="1300" profile="2"/>
 
+<!-- TELE2 LT (Lithuania) VoWiFi -->
+    <mtuTableEntry numeric="24603" mtu="1280" rat="4"/>
+
+<!-- TELE2 LV (Latvia) VoWiFi -->
+    <mtuTableEntry numeric="24702" mtu="1280" rat="4"/>
+
+<!-- TELE2 EE (Estonia) VoWiFi -->
+    <mtuTableEntry numeric="24803" mtu="1280" rat="4"/>
+
 <!-- MTS operator -->
     <mtuTableEntry numeric="25001" mtu="1300" profile="2"/>
     <mtuTableEntry numeric="25001" mtu="1300" rat="4"/>
@@ -216,22 +259,30 @@ mtuTableEntry attributes:
 <!-- Beeline Russia -->
     <mtuTableEntry numeric="25099" mtu="1300"/>    
 
+<!-- Lifecell -->
+    <mtuTableEntry numeric="25506" mtu="1280" profile="2"/>
+    <mtuTableEntry numeric="25506" mtu="1280" rat="4"/>
+
 <!-- PLAY -->
     <mtuTableEntry numeric="26006" mtu="1280" rat="4"/>
-
-<!-- DT -->
-    <mtuTableEntry numeric="26201" mtu="1340" profile="2"/>
-    <mtuTableEntry numeric="26201" mtu="1340" rat="4"/>
-    <mtuTableEntry numeric="26206" mtu="1340" profile="2"/>
-    <mtuTableEntry numeric="26206" mtu="1340" rat="4"/>
 
 <!-- VF DE -->
     <mtuTableEntry numeric="26202" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="26202" mtu="1280" rat="4"/>
 
+<!-- Telefonica DE -->
+    <mtuTableEntry numeric="26203" mtu="1380" profile="2"/>
+    <mtuTableEntry numeric="26207" mtu="1380" profile="2"/>
+    <mtuTableEntry numeric="26208" mtu="1380" profile="2"/>
+    <mtuTableEntry numeric="26211" mtu="1380" profile="2"/>
+    <mtuTableEntry numeric="26277" mtu="1380" profile="2"/>
+
 <!-- VF DE for Test lab -->
     <mtuTableEntry numeric="26209" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="26209" mtu="1280" rat="4"/>    
+	
+<!-- Portugal-MEO -->
+    <mtuTableEntry numeric="26806" mtu="1280" rat="4"/>
 
 <!-- Portugal-NOS -->
     <mtuTableEntry numeric="26803" mtu="1380" profile="2"/>
@@ -243,12 +294,27 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="27201" mtu="1330" profile="2"/>
     <mtuTableEntry numeric="27201" mtu="1330" rat="4"/>
 
+<!-- 3IE(Ireland) -->
+    <mtuTableEntry numeric="27202" mtu="1358" profile="2"/>
+    <mtuTableEntry numeric="27205" mtu="1358" profile="2"/>
+    <mtuTableEntry numeric="27205" mtu="1440"/>
+
+<!-- Siminn -->
+    <mtuTableEntry numeric="27401" mtu="1452" profile="2"/>
+    <mtuTableEntry numeric="27401" mtu="1452" rat="4"/>
+
+<!-- Nova IS -->
+    <mtuTableEntry numeric="27411" mtu="1280" profile="2"/>
+
 <!-- A1 Bulgaria -->
     <mtuTableEntry numeric="28401" mtu="1330" profile="2"/>
     <mtuTableEntry numeric="28401" mtu="1330" rat="4"/>
 
 <!-- TURKCELL -->
     <mtuTableEntry numeric="28601" mtu="1300" profile="2"/>    
+
+<!-- Vodafone Turkiye -->
+    <mtuTableEntry numeric="28602" mtu="1280" profile="2"/>
 
 <!-- AVEA -->
     <mtuTableEntry numeric="28603" mtu="1300" profile="2"/>
@@ -354,9 +420,20 @@ mtuTableEntry attributes:
 <!-- Barbados: Flow: CWW --> 
     <mtuTableEntry numeric="342600" mtu="1280" rat="4"/>
 
+<!-- Orange Dominicana - DOR -->
+    <mtuTableEntry numeric="37001" mtu="1300" profile="2"/>
+    <mtuTableEntry numeric="370001" mtu="1300" profile="2"/>
+
 <!-- Claro Dominicana -->
     <mtuTableEntry numeric="37002" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="37002" mtu="1280" proto="2"/>
+
+
+<!-- Azercell Azerbaijan -->
+    <mtuTableEntry numeric="40001" mtu="1280" rat="4"/>
+
+<!-- Beeline Kazakhstan -->
+    <mtuTableEntry numeric="40101" mtu="1280" rat="4"/>
 
 <!-- RJIL -->
     <mtuTableEntry numeric="40578" mtu="1280" rat="4"/>
@@ -394,9 +471,15 @@ mtuTableEntry attributes:
 <!-- STC -->
     <mtuTableEntry numeric="42001" mtu="1300" profile="2"/>
 
+<!-- Mobily -->
+    <mtuTableEntry numeric="42003" mtu="1280" rat="4"/>
+
 <!-- Zain -->
     <mtuTableEntry numeric="42004" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="42004" mtu="1280" rat="4"/>
+
+<!-- Virgin -->
+    <mtuTableEntry numeric="42005" mtu="1280" rat="4"/>
 
 <!-- OMAN MOBILE -->
     <mtuTableEntry numeric="42202" mtu="1300" profile="2"/>    
@@ -404,6 +487,9 @@ mtuTableEntry attributes:
 <!-- ZAIN BH -->
     <mtuTableEntry numeric="42602" mtu="1480" profile="2"/>    
     <mtuTableEntry numeric="42602" mtu="1480" profile="14"/>
+
+<!-- Vodafone QATAR -->
+    <mtuTableEntry numeric="42702" mtu="1390" rat="4"/>
 
 <!--  JPN SBM -->
     <mtuTableEntry numeric="44020" mtu="1422"/>
@@ -495,11 +581,18 @@ mtuTableEntry attributes:
 
 <!--  Malaysia Digi -->
     <mtuTableEntry numeric="50216" mtu="1280" profile="2"/>
-    <mtuTableEntry numeric="50216" mtu="1280" rat="4"/>    
+    <mtuTableEntry numeric="50216" mtu="1280" rat="4"/>
+
+<!--  Malaysia Maxis -->
+    <mtuTableEntry numeric="50212" mtu="1280" profile="2"/>
+    <mtuTableEntry numeric="50212" mtu="1280" rat="4"/>
 
 <!--  Optus YES -->
     <mtuTableEntry numeric="50502" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="50502" mtu="1280" rat="4"/>
+
+<!-- MOI QATAR -->
+    <mtuTableEntry numeric="42706" mtu="1280" rat="4"/>
 
 <!--  Vodafone VAU -->
     <mtuTableEntry numeric="50503" mtu="1280" profile="2"/>
@@ -524,11 +617,17 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="52503" mtu="1300" rat="4"/>
 
 <!-- South Africa -->
-    <mtuTableEntry numeric="65507" mtu="1440" profile="2"/>
+    <mtuTableEntry numeric="65507" mtu="1280" profile="2"/>
+
+<!-- Airtel Zambia -->
+    <mtuTableEntry numeric="64501" mtu="1280" rat="4"/>
 
 <!-- Claro Guatemala -->
     <mtuTableEntry numeric="70401" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="70401" mtu="1280" proto="2"/>
+
+<!-- Tigo Guatemala - CGU -->
+    <mtuTableEntry numeric="70402" mtu="1300" profile="2"/>
 
 <!-- Claro El Salvador -->
     <mtuTableEntry numeric="70601" mtu="1300" proto="1"/>
@@ -583,6 +682,12 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="72423" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="72423" mtu="1280" rat="4"/>
 
+<!-- Entel Chile - CHE -->
+    <mtuTableEntry numeric="73001" mtu="1390" profile="2"/>
+    <mtuTableEntry numeric="73001" mtu="1390" rat="4"/>
+    <mtuTableEntry numeric="73010" mtu="1390" profile="2"/>
+    <mtuTableEntry numeric="73010" mtu="1390" rat="4"/>
+
 <!-- Movistar Chile -->
     <mtuTableEntry numeric="73002" mtu="1430" profile="2"/>
     <mtuTableEntry numeric="73002" mtu="1280" rat="4"/>
@@ -594,20 +699,28 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="73023" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="73023" mtu="1280" proto="2"/>
 
+<!-- Wom Chile - CHX -->
+    <mtuTableEntry numeric="73009" mtu="1300" profile="2"/>
+    <mtuTableEntry numeric="73009" mtu="1300" rat="4"/>
+
 <!-- Claro Colombia -->
     <mtuTableEntry numeric="732101" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="732101" mtu="1280" proto="2"/>
+
+<!-- Tigo Bolivia - BVO (BVT) -->
+    <mtuTableEntry numeric="73603" mtu="1300" profile="2"/>
 
 <!-- Claro Ecuador -->
     <mtuTableEntry numeric="74001" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="74001" mtu="1280" proto="2"/>
 
+<!-- Movistar Uruguay - UFU -->
+    <mtuTableEntry numeric="74807" mtu="1280" profile="2"/>
+    <mtuTableEntry numeric="74807" mtu="1280" rat="4"/>
+
 <!-- Claro Uruguay -->
     <mtuTableEntry numeric="74810" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="74810" mtu="1280" rat="4"/>
-
-<!-- HT HR iwlan -->
-    <mtuTableEntry numeric="21901" mtu="1280" rat="4"/>
 
 <!-- Danish 3DK -->
     <mtuTableEntry numeric="23806" mtu="1300" profile="2"/>
@@ -616,36 +729,15 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="26001" mtu="1300" profile="2"/>
     <mtuTableEntry numeric="26001" mtu="1300" rat="4"/>
 
-<!-- Wom Chile - CHX -->
-    <mtuTableEntry numeric="73009" mtu="1300" profile="2"/>
-    <mtuTableEntry numeric="73009" mtu="1300" rat="4"/>
-
-<!-- Tigo Guatemala - CGU -->
-    <mtuTableEntry numeric="70402" mtu="1300" profile="2"/>
-
-<!-- Entel Chile - CHE -->
-    <mtuTableEntry numeric="73001" mtu="1390" profile="2"/>
-    <mtuTableEntry numeric="73001" mtu="1390" rat="4"/>
-    <mtuTableEntry numeric="73010" mtu="1390" profile="2"/>
-    <mtuTableEntry numeric="73010" mtu="1390" rat="4"/>
-
 <!-- WIND Greece -->
     <mtuTableEntry numeric="20209" mtu="1390" profile="2"/>
     <mtuTableEntry numeric="20210" mtu="1390" profile="2"/>
-
-<!-- Movistar Uruguay - UFU -->
-    <mtuTableEntry numeric="74807" mtu="1280" profile="2"/>
-    <mtuTableEntry numeric="74807" mtu="1280" rat="4"/>
-
-<!-- Tigo Bolivia - BVO (BVT) -->
-    <mtuTableEntry numeric="73603" mtu="1300" profile="2"/>
 
 <!-- ZAIN MI -->
     <mtuTableEntry numeric="41902" mtu="1410" profile="2"/>
     <mtuTableEntry numeric="41902" mtu="1410" rat="4"/>
 
-<!-- Orange Dominicana - DOR -->
-    <mtuTableEntry numeric="37001" mtu="1300" profile="2"/>
-    <mtuTableEntry numeric="370001" mtu="1300" profile="2"/>
-
+<!-- SPARK NZ -->
+    <mtuTableEntry numeric="53005" mtu="1280" profile="14" rat="4"/>
+    <mtuTableEntry numeric="53099" mtu="1280" profile="14" rat="4"/>
 </mtuTableEntry>
