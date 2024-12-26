@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter r8q,$(TARGET_DEVICE)),)
+ifneq ($(filter gts7l gts7lwifi gts7xl gts7xlwifi r8q,$(TARGET_DEVICE)),)
 
 endif
