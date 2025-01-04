@@ -62,17 +62,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "CACertService",
-	owner: "samsung",
-	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "TimeService",
 	owner: "samsung",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
@@ -119,15 +108,6 @@ dex_import {
 	owner: "samsung",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
 	system_ext_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.gnss@2.1-service-qti.xml",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
 }
 
 prebuilt_etc_xml {
