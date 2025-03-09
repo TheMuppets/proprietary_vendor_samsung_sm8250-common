@@ -119,7 +119,6 @@ PRODUCT_PACKAGES += \
     libdiagjni \
     libdrmfs \
     libdrmtime \
-    libdsi_netctrl \
     libdsutils \
     libfastcvdsp_stub \
     libfastcvopt \
@@ -133,8 +132,6 @@ PRODUCT_PACKAGES += \
     libminkdescriptor \
     libminksocket \
     libnative-api \
-    libnetmgr \
-    libnetmgr_common \
     liboemcrypto \
     libops \
     libpdmapper \
@@ -159,7 +156,6 @@ PRODUCT_PACKAGES += \
     libqsocket \
     librpmb \
     libsecnativefeature \
-    libsemnativecarrierfeature \
     libsi \
     libspl \
     libssd \
@@ -273,6 +269,7 @@ PRODUCT_PACKAGES += \
     libdisplayqos \
     libdisplayskuutils \
     libdpps \
+    libdsi_netctrl \
     libengmode_client \
     libhandgesture.arcsoft \
     libhdr_tm \
@@ -299,6 +296,14 @@ PRODUCT_PACKAGES += \
     libmultiviewspin_interface \
     libmultiviewzoom_interface \
     libnanopb \
+    libnetmgr \
+    libnetmgr_common \
+    libnetmgr_datapath_proxy \
+    libnetmgr_sscm3 \
+    libnetmgr_utils \
+    libnetmgrmodemproxy \
+    libnetmgrportutils \
+    libnetmgrxfrmutils \
     libnlnetmgr \
     libnpu \
     libofflinelog \
@@ -326,8 +331,10 @@ PRODUCT_PACKAGES += \
     libsec-ril \
     libsecureui \
     libsecureui_svcsock \
+    libsemnativecarrierfeature \
     libsensorlistener \
     libsensorslog \
+    libshsc \
     libskeymaster4device \
     libsmartfocus_interface \
     libsnap_compute \
@@ -393,9 +400,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.3 \
     vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.hyper-V2-ndk_platform \
-    vendor.samsung.hardware.radio.bridge@2.0 \
-    vendor.samsung.hardware.radio.bridge@2.1 \
-    vendor.samsung.hardware.radio.channel@2.0 \
+    vendor.samsung.hardware.radio-V1-ndk \
+    vendor.samsung.hardware.radio.bridge-V1-ndk \
+    vendor.samsung.hardware.radio.channel-V1-ndk \
+    vendor.samsung.hardware.radio.data-V1-ndk \
+    vendor.samsung.hardware.radio.messaging-V1-ndk \
+    vendor.samsung.hardware.radio.sim-V1-ndk \
     vendor.samsung.hardware.thermal@1.0 \
     capi_v2_aptX_CLHDAD_Encoder \
     libQ6MSFR_manager_skel \
@@ -422,6 +432,7 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     c2_manifest_vendor.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.samsung.hardware.radio.exclude.qcom.xml \
     vendor.samsung.hardware.thermal@1.0-manifest.xml \
     adpl \
     adsprpcd \
