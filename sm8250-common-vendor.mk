@@ -445,6 +445,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.widevine \
     android.hardware.keymaster@4.0-strongbox-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
+    macloader \
     rild \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
