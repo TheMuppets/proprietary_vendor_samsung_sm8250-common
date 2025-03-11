@@ -436,6 +436,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.thermal@1.0-manifest.xml \
     adpl \
     adsprpcd \
+    argosd \
     cdsprpcd \
     cnss-daemon \
     dspservice \
