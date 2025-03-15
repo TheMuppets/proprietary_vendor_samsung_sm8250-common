@@ -371,9 +371,6 @@ PRODUCT_PACKAGES += \
     libvpphcp \
     libvpphvx \
     libvpplibrary \
-    sensors.flicker \
-    sensors.grip \
-    sensors.ssc \
     unnhal-acc-adreno \
     unnhal-acc-common \
     unnhal-acc-hta \
