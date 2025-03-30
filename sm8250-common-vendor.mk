@@ -278,7 +278,6 @@ PRODUCT_PACKAGES += \
     libhta_hexagon_runtime \
     libhypermotion_core \
     libhypermotion_interface \
-    libhypervintf \
     libimage_enhancement.arcsoft \
     libimagecodec_native.quram \
     libipebpsstriping \
@@ -396,7 +395,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     vendor.samsung.hardware.bluetooth@2.0 \
-    vendor.samsung.hardware.hyper-V2-ndk_platform \
     vendor.samsung.hardware.radio-V1-ndk \
     vendor.samsung.hardware.radio.bridge-V1-ndk \
     vendor.samsung.hardware.radio.channel-V1-ndk \
