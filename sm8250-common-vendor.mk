@@ -47,6 +47,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/locale/plmn_delta_zh-rCN.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rCN.bin \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/locale/plmn_delta_zh-rHK.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rHK.bin \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/locale/plmn_delta_zh-rTW.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rTW.bin \
+    vendor/samsung/sm8250-common/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
+    vendor/samsung/sm8250-common/proprietary/vendor/etc/media_codecs_dolby_audio_dax3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio_dax3.xml \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
@@ -136,6 +138,7 @@ PRODUCT_PACKAGES += \
     libops \
     libpdmapper \
     libpdnotifier \
+    libprofileparamstorage \
     libqcbor \
     libqcci_legacy \
     libqcmaputils \
@@ -200,7 +203,6 @@ PRODUCT_PACKAGES += \
     libhdmipassthru \
     libhfp \
     libmulawdec \
-    libprofileparamstorage \
     libqcodec2_base \
     libqcodec2_basecodec \
     libqcodec2_core \
@@ -239,6 +241,7 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libQTEEConnector_vendor \
     libSNPE \
+    libSecC2ComponentStore \
     libSecureUILib \
     libSemDataProps \
     libSemTelephonyProps \
@@ -270,11 +273,14 @@ PRODUCT_PACKAGES += \
     libcapiv2vop \
     libcdsp_default_listener \
     libchilog \
+    libcodec2_soft_ac4dec \
+    libcodec2_soft_eac3dec \
     libcom.qti.chinodeutils \
     libcvp2 \
     libcvp2_hfi \
     libcvp_common \
     libcvpcpuRev_skel \
+    libdeccfg \
     libdisp-aba \
     libdisplayqos \
     libdisplayskuutils \
@@ -359,6 +365,7 @@ PRODUCT_PACKAGES += \
     libspcom \
     libssc \
     libssc_default_listener \
+    libstagefright_foundation_vendor \
     libstork_shared \
     libswregistrationalgo \
     libsynx \

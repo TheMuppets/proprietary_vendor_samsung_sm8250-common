@@ -1823,6 +1823,49 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libprofileparamstorage",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libprofileparamstorage.so",
+            ],
+            shared_libs: [
+                "libxml2",
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libprofileparamstorage.so",
+            ],
+            shared_libs: [
+                "libxml2",
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libqcbor",
     owner: "samsung",
     strip: {
@@ -4168,34 +4211,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libprofileparamstorage",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libprofileparamstorage.so",
-            ],
-            shared_libs: [
-                "libxml2",
-                "libcutils",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqcodec2_base",
     owner: "samsung",
     strip: {
@@ -5341,6 +5356,53 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libSecC2ComponentStore",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libSecC2ComponentStore.so",
+            ],
+            shared_libs: [
+                "libcodec2_shim",
+                "android.hardware.media.c2@1.0",
+                "android.hardware.graphics.allocator@2.0",
+                "android.hardware.graphics.allocator@3.0",
+                "android.hardware.graphics.bufferqueue@2.0",
+                "android.hardware.graphics.mapper@2.0",
+                "android.hardware.graphics.mapper@3.0",
+                "android.hardware.media.bufferpool@2.0",
+                "libcodec2_hidl@1.0",
+                "libcodec2_vndk",
+                "libbase",
+                "libbinder",
+                "libcutils",
+                "libhardware",
+                "libhidlbase",
+                "libion",
+                "libfmq",
+                "liblog",
+                "libnativewindow",
+                "libstagefright_foundation_vendor",
+                "libstagefright_bufferpool@2.0.1",
+                "libui",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libSecureUILib",
     owner: "samsung",
     strip: {
@@ -6203,6 +6265,76 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcodec2_soft_ac4dec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcodec2_soft_ac4dec.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcodec2",
+                "libcodec2_vndk",
+                "libcodec2_soft_common",
+                "libSecC2ComponentStore",
+                "libstagefright_foundation",
+                "libdeccfg",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libprofileparamstorage",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_soft_eac3dec",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcodec2_soft_eac3dec.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcodec2",
+                "libcodec2_vndk",
+                "libcodec2_soft_common",
+                "libSecC2ComponentStore",
+                "libstagefright_foundation",
+                "libdeccfg",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libprofileparamstorage",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libcom.qti.chinodeutils",
     owner: "samsung",
     strip: {
@@ -6323,6 +6455,34 @@ cc_prebuilt_library_shared {
                 "libcdsprpc",
                 "libion",
                 "libcvp_common",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdeccfg",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libdeccfg.so",
+            ],
+            shared_libs: [
+                "libprofileparamstorage",
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libc++",
                 "libc",
                 "libm",
                 "libdl",
@@ -8749,6 +8909,33 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libsdsprpc",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_foundation_vendor",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libstagefright_foundation_vendor.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libcutils",
+                "liblog",
                 "libc++",
                 "libc",
                 "libm",
