@@ -228,6 +228,8 @@ PRODUCT_PACKAGES += \
     libqcvirt \
     libshoebox \
     libswdap \
+    libswspatializer \
+    spatializer-aidl-V1-cpp \
     vendor.qti.hardware.audiohalext@1.0 \
     com.qualcomm.qti.ant@1.0 \
     android.hardware.bluetooth@1.0-impl-qti \
