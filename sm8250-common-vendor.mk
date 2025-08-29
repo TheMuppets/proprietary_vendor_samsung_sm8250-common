@@ -175,6 +175,7 @@ PRODUCT_PACKAGES += \
     lib_SamsungRec_07020 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
+    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -186,12 +187,18 @@ PRODUCT_PACKAGES += \
     libaudio_soundtrigger \
     libaudioconfigstore \
     libaudioparsers \
+    libbatterylistener \
     libbluetooth_audio_session_qti \
+    libcirrusspkrprot \
+    libcomprcapture \
+    libexthwplugin \
     libgcs-calwrapper \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
+    libhdmiedid \
     libhdmipassthru \
+    libhfp \
     libmulawdec \
     libprofileparamstorage \
     libqcodec2_base \
@@ -205,8 +212,10 @@ PRODUCT_PACKAGES += \
     libsamsungVoipResampler \
     libsecaudiocoreutils \
     libsecaudioinfo \
+    libsndmonitor \
     libspatializerparamstorage \
     libspeakercalibration \
+    libspkrprot \
     libsurround_3mic_proc \
     libwvhidl \
     libwvdrmengine \
