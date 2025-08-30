@@ -5026,6 +5026,38 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "android.hardware.gatekeeper@1.0-impl-qti",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so",
+            ],
+            shared_libs: [
+                "android.hardware.gatekeeper@1.0",
+                "libhidlbase",
+                "libutils",
+                "liblog",
+                "libcutils",
+                "libkeymasterdeviceutils",
+                "libqcbor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "camera.qcom",
     owner: "samsung",
     strip: {
@@ -5060,34 +5092,6 @@ cc_prebuilt_library_shared {
                 "libdl",
                 "libc",
                 "libm",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "gatekeeper.mdfpp",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/gatekeeper.mdfpp.so",
-            ],
-            shared_libs: [
-                "libQSEEComAPI",
-                "liblog",
-                "libcrypto-v33",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },
@@ -10777,6 +10781,36 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "32",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.gatekeeper@1.0-service-qti",
+    owner: "samsung",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti",
+            ],
+            shared_libs: [
+                "android.hardware.gatekeeper@1.0",
+                "libhardware",
+                "libhidlbase",
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
     strip: {
         none: true,
     },
