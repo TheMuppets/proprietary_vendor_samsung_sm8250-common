@@ -232,6 +232,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     camera.qcom \
+    gatekeeper.mdfpp \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     libDepthBokehVideo_interface \
