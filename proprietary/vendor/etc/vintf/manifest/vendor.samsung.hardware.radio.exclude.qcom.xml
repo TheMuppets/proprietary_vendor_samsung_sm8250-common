@@ -104,5 +104,9 @@
         <name>vendor.qti.hardware.dpmservice</name>
         <transport>hwbinder</transport>
     </hal>
+
+    <hal override="true" format="aidl">
+        <name>vendor.qti.data.dmapconsent</name>
+    </hal>
     <!-- >> QCOM HAL RELATED DATA -->
 </manifest>
