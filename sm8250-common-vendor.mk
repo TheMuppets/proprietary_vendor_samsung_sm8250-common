@@ -320,8 +320,6 @@ PRODUCT_PACKAGES += \
     libos \
     libpadm \
     libperipheral_client \
-    libqmiservices-ext \
-    libqmiservices-sem-ext \
     libqseed3 \
     libqtikeymaster4 \
     libril_sem \
