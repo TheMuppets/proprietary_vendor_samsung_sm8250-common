@@ -241,9 +241,9 @@ PRODUCT_PACKAGES += \
     libQTEEConnector_vendor \
     libSNPE \
     libSecureUILib \
+    libSemDataProps \
+    libSemTelephonyProps \
     libStDrvInt \
-    libVendorSemDataProps \
-    libVendorSemTelephonyProps \
     libadsp_default_listener \
     libadsprpc \
     libarcsoft_aieffectpk_video \

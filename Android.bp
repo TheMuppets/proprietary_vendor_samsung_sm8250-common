@@ -5371,6 +5371,56 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libSemDataProps",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libSemDataProps.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libSemTelephonyProps",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libSemTelephonyProps.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libStDrvInt",
     owner: "samsung",
     strip: {
@@ -5380,56 +5430,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libStDrvInt.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libVendorSemDataProps",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libVendorSemDataProps.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libVendorSemTelephonyProps",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libVendorSemTelephonyProps.so",
             ],
             shared_libs: [
                 "liblog",
@@ -8082,9 +8082,8 @@ cc_prebuilt_library_shared {
                 "libz",
                 "libutils",
                 "libjsoncpp",
-                "libVendorSemTelephonyProps",
-                "libVendorSemDataProps",
-                "libprotobuf-cpp-full-3.9.1-vendorcompat",
+                "libSemTelephonyProps",
+                "libSemDataProps",
                 "libvkmanager_vendor",
                 "libengmode_client",
                 "libbase",
@@ -8093,17 +8092,20 @@ cc_prebuilt_library_shared {
                 "libsecnativefeature",
                 "libfloatingfeature",
                 "libsemnativecarrierfeature",
+                "libnlnetmgr",
                 "libtime_genoff",
                 "libmdmdetect",
                 "libdsutils",
                 "librmnetctl",
                 "libconfigdb",
+                "libperipheral_client",
                 "libqmi_cci",
                 "libqmi_client_helper",
                 "libqmi_common_so",
                 "libqmi_encdec",
                 "libdiag",
                 "libc++",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
                 "libc",
                 "libm",
                 "libdl",
