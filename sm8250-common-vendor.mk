@@ -175,7 +175,6 @@ PRODUCT_PACKAGES += \
     audio.primary.kona \
     sound_trigger.primary.kona \
     vendor.qti.hardware.audiohalext@1.0-impl \
-    lib_SamsungRec_07020 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
     liba2dpoffload \
@@ -210,7 +209,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
     libqtigef \
-    librecordalive \
     libsamsungVoipResampler \
     libsecaudiocoreutils \
     libsecaudioinfo \

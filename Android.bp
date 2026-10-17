@@ -3383,30 +3383,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "lib_SamsungRec_07020",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/lib_SamsungRec_07020.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libm",
-                "libdl",
-                "liblog",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "lib_SoundAlive_SRC384_ver320",
     owner: "samsung",
     strip: {
@@ -4409,35 +4385,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "librecordalive",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/librecordalive.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "lib_SamsungRec_07020",
-                "libsecaudioinfo",
                 "libc++",
                 "libc",
                 "libm",
@@ -12184,4 +12131,10 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
+}
+
+cc_library_shared {
+    name: "librecordalive",
+    compile_multilib: "32",
+    soc_specific: true,
 }
