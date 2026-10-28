@@ -327,7 +327,6 @@ PRODUCT_PACKAGES += \
     libperipheral_client \
     libqseed3 \
     libqtikeymaster4 \
-    libril_sem \
     libsavscmn \
     libscveCommon \
     libscveCommon_stub \
@@ -341,7 +340,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libsdmextension \
     libsdsprpc \
-    libsec-ril \
+    libsec-ril-impl \
     libsecureui \
     libsecureui_svcsock \
     libsemnativecarrierfeature \
@@ -411,11 +410,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.3 \
     vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.radio-V1-ndk \
-    vendor.samsung.hardware.radio.bridge-V1-ndk \
     vendor.samsung.hardware.radio.channel-V1-ndk \
-    vendor.samsung.hardware.radio.data-V1-ndk \
-    vendor.samsung.hardware.radio.messaging-V1-ndk \
-    vendor.samsung.hardware.radio.sim-V1-ndk \
     vendor.samsung.hardware.thermal@1.0 \
     vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Encoder_so \
     vendor_lib_rfsa_adsp_libQ6MSFR_manager_skel_so \
@@ -456,7 +451,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
     macloader \
-    rild \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.qseecom@1.0-service \
