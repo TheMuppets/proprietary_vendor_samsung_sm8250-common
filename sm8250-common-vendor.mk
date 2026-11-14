@@ -243,9 +243,9 @@ PRODUCT_PACKAGES += \
     libSNPE \
     libSecC2ComponentStore \
     libSecureUILib \
-    libSemDataProps \
-    libSemTelephonyProps \
     libStDrvInt \
+    libVendorSemDataProps \
+    libVendorSemTelephonyProps \
     libadsp_default_listener \
     libadsprpc \
     libarcsoft_aieffectpk_video \
